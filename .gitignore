@@ -1,0 +1,18 @@
+# Publish only the reviewed starter files.
+*
+!.gitignore
+!README.md
+!Package.swift
+!build.command
+!Sources/
+Sources/*
+!Sources/MacsIslandStarter/
+Sources/MacsIslandStarter/*
+!Sources/MacsIslandStarter/main.swift
+
+# Generated files stay local.
+*.app/
+.build/
+dist/
+.vscode/
+.DS_Store
